@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer className="footer">
-            <p>© 2024 Edumax. All rights reserved.</p>
+            <p>© 2025 Edumax. All rights reserved. Developed by Gin</p>
         </footer>
     )
 }

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +15,26 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --background-black: #242424;
+  --background-gray: #3a3a3a;
+  --background-gray-hover: #5e5e5e;
+  
+  --font-white: #f9f9f9;
+  --font-white-hover: #ffffff;
+
+  --border-blue-hover: #357ae8;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 a {

@@ -9,14 +9,14 @@ import { About } from '../pages/About';
 const NotFound = () => <h1>Página no encontrada</h1>;
 
 const App = () => (
-    <Router>
+    <Router basename="/Edumax">
         <Layout>
             <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/library" element={<Library />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="*" element={<NotFound />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/library" element={<Library />} />
+                <Route path="/about" element={<About />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </Layout>
     </Router>
