@@ -1,0 +1,35 @@
+.about-background {
+    width: 100%;
+    background: var(--background-black);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.about-container {
+    width: 60vw;
+    display: flex;
+    gap: 2rem;
+    background-color: var(--background-gray);
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 8px 32px rgba(101, 101, 101, 0.15);
+    animation: fade-in .3s ease-in-out;
+    text-align: left;
+}
+
+.edumax-logo {
+    max-width: 240px;
+    margin-bottom: 20px;
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--font-white);
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}

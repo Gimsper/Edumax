@@ -1,3 +1,11 @@
+.login-background {
+    background: var(--background-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
 .login-container {
     max-width: 500px;
     width: 500px;

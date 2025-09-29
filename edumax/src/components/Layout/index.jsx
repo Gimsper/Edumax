@@ -7,7 +7,7 @@ function Layout({ children }) {
     return (
         <div className="layout">
             <Header />
-            <main>{children}</main>
+            <main style={{ width: "100%", overflowY: "auto" }}>{children}</main>
             <Footer />
         </div>
     )
